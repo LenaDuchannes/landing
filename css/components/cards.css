@@ -1,0 +1,26 @@
+.all-cards {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards-category {
+    margin-bottom: 30px;
+    width: 100vw;
+    display: flex;
+}
+
+.card-product {
+    background-color: white;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.card-product img {
+    height: 100px;
+}

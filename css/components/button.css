@@ -1,0 +1,37 @@
+
+.btn-yours{
+  background: #4b488c;
+  color: #fff;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 800ms ease all;
+}
+.btn-yours:hover{
+  background: #111;
+  color: #4b488c;
+}
+.btn-yours:before,.btn-yours:after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0;
+  height: 2px;
+  width: 0px;
+  background: #4b488c;
+  transition: 400ms ease all;
+}
+.btn-yours:after{
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.btn-yours:hover:before,.btn-yours:hover:after{
+  width: 100%;
+  transition: 800ms ease all;
+}

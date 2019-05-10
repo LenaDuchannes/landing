@@ -1,0 +1,51 @@
+.banner-img, .all-cards, .footer {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img {
+    background-image: url(https://images.unsplash.com/photo-1493414307931-f6f5861f5029?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    min-height: 100%;
+}
+
+.all-cards {
+    background-image: url(https://i.kinja-img.com/gawker-media/image/upload/s--iY8lC5Pf--/c_scale,f_auto,fl_progressive,q_80,w_800/xiqwijrxlfredglkbx7e.jpg);
+    min-height: 110%;
+}
+
+.footer{
+    background-image: url(https://www.travelinsurancedirect.com.au/blog/wp-content/uploads/2015/02/must-have-camera-equipment-every-photographer-needs.jpg);
+    min-height: 110%;
+}
+
+.introduce {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 15px;
+    box-shadow: 0px 0px 15px #111;
+
+}
+
+.learn-more {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px black;
+    padding: 18px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+
+}
